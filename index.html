@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+ 
+</head>
+<body>
+
+  <div class="container">
+
+
+
+
+    <div class="inputs">
+    <div class="day input">
+      <h3>
+        Day
+      </h3>
+      <input class="getDayValue" type="number" placeholder="DD" min="1" max="31"/>
+      <p class="error-message"> </p>
+    </div>
+
+    <div class="month input">
+      <h3>
+        Month
+      </h3>
+      <input class="getMonthValue" type="number" placeholder="MM" min="1" max="12"/>
+      <p class="error-message2"> </p>
+    </div>
+    <div class="year input">
+      <h3>
+        Year
+      </h3>
+      <input class="getYearValue"  type="number" placeholder="YYYY" min="1" max="2024"/>
+      <p class="error-message3"> </p>
+    </div>
+
+    </div>
+
+    <div class="btn-group">
+        <hr/>
+        <button type="button" class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="30" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+        </button>
+    </div>
+
+    <div class="time-output">
+      <div class="year-output age">
+        <h3 class="year-output ageYear">
+          --
+        </h3>
+        <h3 class="text">
+            years
+        </h3>
+        
+      </div>
+      <div class="month-output age">
+        <h3 class="month-output ageMonth">
+            --
+        </h3>
+        <h3 class="text">
+          months
+        </h3>
+      </div>
+      <div class="day-output age">
+        <h3 class="day-output ageDay">
+            --
+        </h3>
+        <h3 class="text">
+          days
+        </h3>
+      </div>
+    </div>
+    
+
+
+
+
+
+  </div>
+  <script src="jsfile.js"></script>
+</body>
+</html>
